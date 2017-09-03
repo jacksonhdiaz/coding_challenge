@@ -1,0 +1,15 @@
+{
+  "name": "twitter_api",
+  "version": "1.0.0",
+  "description": "Application that can search Twitter for #liveperson via API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jackson Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "twit": "^2.2.9"
+  }
+}

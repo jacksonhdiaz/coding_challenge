@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="logo">
+        <img src="assets/img/twitter_logo.svg">
+      </div>
+    <div class="header clearfix">
+        <h1>#liveperson</h1>
+    </div>
+
+    <div class="jumbotron">
+      <h2>Coding challenge!</h2>
+      <p class="lead">Create a NodeJS/Express application that can search Twitter for #liveperson via API's and present the result on the client front-end.</p>
+        <div>
+          <label for="topic">Topic:</label>
+          <input type="text" #topic value="#liveperson">
+          <button (click)="showTweets(topic.value)">Search</button>
+        </div>
+      <h3>Tweets:</h3>
+      <table>
+          <tr *ngFor="let tweet of tweets">
+            <td>{{tweet.text}}</td>
+          </tr>
+        </table>
+    </div>
+
+    <div class="jumbotron">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <footer class="footer">
+      <div class="signature">
+        <p>Developed by: Jackson Diaz</p>
+      </div>
+    </footer>
+  </div>
+

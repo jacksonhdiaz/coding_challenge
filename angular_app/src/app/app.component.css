@@ -1,0 +1,39 @@
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+h1 {
+    top: 30%;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    color: white;
+}
+
+.logo{
+    margin-left: 0%;
+    margin-top: 5%;
+}
+
+.signature p{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    color: white;
+}
+.tweets{
+    margin-top: 10%;
+    width:30em;
+    height:18em;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
